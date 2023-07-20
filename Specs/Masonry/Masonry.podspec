@@ -20,8 +20,6 @@ Pod::Spec.new do |spec|
   spec.source_files = 'myFirst/Masonry/*.{h, m}', 'Masonry/*.{h, m}'
   spec.framework    = 'Masonry'
 
-  spec.ios.frameworks = 'Foundation', 'UIKit'
-
   spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/Masonry/**" }
 
   spec.ios.deployment_target = '10.0'
