@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "10.0"
   spec.ios.deployment_target = "10.0"
 
-  spec.source       = { :git => 'https://github.com/yangliuhua/myFirst.git'}
+  spec.source       = { :git => 'https://github.com/yangliuhua/myFirst.git', :tag => 'v0.0.1'}
 
 
   spec.source_files = 'myFirst/Masonry/*.{h, m}', 'Masonry/*.{h, m}'
