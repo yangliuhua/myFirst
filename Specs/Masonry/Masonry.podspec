@@ -19,6 +19,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files = 'myFirst/Masonry/*.{h, m}', 'Masonry/*.{h, m}'
   spec.framework    = 'Masonry'
+  spec.public_header_files = "myFirst/Masonry/Masonry.h"
 
   spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/Masonry/**" }
 
